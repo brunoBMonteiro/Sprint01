@@ -1,4 +1,6 @@
-public class Pessoa {
+package abstrata;
+
+public abstract class Pessoa {
 
     private String nome;
     private String endereco;
@@ -13,11 +15,6 @@ public class Pessoa {
         this.cpf = cpf;
         this.casa = casa;
     }
-
-    public Pessoa() {
-
-    }
-
 
     public String getNome(){
         return nome;
@@ -66,4 +63,10 @@ public class Pessoa {
     public String obterCpf(){
         return cpf;
     }
+
+    public String obterTelefone(){
+        return telefone;
+    }
+
 }
+

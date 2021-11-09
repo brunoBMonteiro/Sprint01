@@ -1,9 +1,10 @@
-public class Professor extends Pessoa{
+package sobreposicao;
+
+public class Professor extends Pessoa {
 
     private double salario;
     private String universidadeLecionaAula;
     private String nomeCurso;
-
 
     public Professor(double salario, String universidadeLecionaAula, String nomeCurso, String nome, String endereco, String telefone, String cpf, String casa){
         super(nome, endereco, telefone, cpf, casa);
@@ -12,9 +13,6 @@ public class Professor extends Pessoa{
         this.nomeCurso = nomeCurso;
     }
 
-    public Professor() {
-
-    }
 
     public double getSalario(){
         return salario;
@@ -52,6 +50,12 @@ public class Professor extends Pessoa{
     public String obterCpf(){
         String concat = "Esse é o cpf professor: ";
         concat += super.getCpf();
+        return concat;
+    }
+
+    public String obterTelefone(){
+        String concat = "O telelefone do Professor é: ";
+        concat += super.getTelefone();
         return concat;
     }
 }

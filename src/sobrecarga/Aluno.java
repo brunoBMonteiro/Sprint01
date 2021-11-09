@@ -1,20 +1,17 @@
-public class Aluno extends Pessoa{
+package sobrecarga;
+
+public class Aluno extends Pessoa {
 
     private String curso;
     private String universidadeEstuda;
     private double[] notas;
 
-    public Aluno(String curso, String universidadeEstuda, double[] notas, String nome, String endereco, String telefone, String cpf, String casa){
-        super(nome, endereco, telefone, cpf, casa);
+    public Aluno(String curso, String universidadeEstuda, double[] notas, String nome, String endereco, String telefone, String cpf, String casa, String reacao){
+        super(nome, endereco, telefone, cpf, casa, reacao);
         this.curso = curso;
         this.universidadeEstuda = universidadeEstuda;
         this.notas = notas;
     }
-
-    public Aluno() {
-
-    }
-
 
     public String getCurso(){
         return curso;
@@ -38,21 +35,6 @@ public class Aluno extends Pessoa{
 
     public void setUniversidadeEstuda(String universidadeEstuda){
         this.universidadeEstuda = universidadeEstuda;
-    }
-
-    // modificando o comportamento herdado
-    // Sobrepor do método da classe pai Pessoa
-    public String obterEndereco(){
-        String concat = "Endereço do aluno: ";
-        concat += super.getEndereco();
-        return concat;
-    }
-
-    // Sobrepor do método da classe pai Pessoa
-    public String obterCpf(){
-        String concat = "Esse é o cpf aluno: ";
-        concat += super.getCpf();
-        return concat;
     }
 
 
