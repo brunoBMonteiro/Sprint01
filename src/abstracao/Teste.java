@@ -1,4 +1,4 @@
-package abstrata;
+package abstracao;
 
 public class Teste {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package abstrata;
+package abstracao;
 
 public abstract class Pessoa {
 
@@ -60,9 +60,7 @@ public abstract class Pessoa {
         return endereco;
     }
 
-    public String obterCpf(){
-        return cpf;
-    }
+    public abstract String obterCpf();
 
     public String obterTelefone(){
         return telefone;
