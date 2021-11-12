@@ -47,13 +47,13 @@ public class Aluno extends Pessoa {
     }
 
     // Sobrepor do método da classe pai Pessoa
-    /*
+
     public String obterCpf(){
         String concat = "Esse é o cpf aluno: ";
         concat += super.getCpf();
         return concat;
     }
-     */
+
 
     public String obterTelefone(){
         String concat = "O telelefone do Aluno é: ";

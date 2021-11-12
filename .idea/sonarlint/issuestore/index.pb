@@ -15,9 +15,3 @@ L
 src/sobreposicao/Pessoa.java,4\7\47da15a2dd879ebd6c3381a95e84e5684c120d3b
 O
 src/sobreposicao/Professor.java,6\e\6e72a6bee867ecbba3851768f00e5a0b74ecf719
-H
-src/abstracao/Carro.java,e\a\eabca2bb7d6c306c6678e9f2ae3c953629024437
-G
-src/abstracao/Fiat.java,f\7\f79b0ad3fb18a091439d8a45d7c8f676e6a0568b
-M
-src/abstracao/TesteCarro.java,4\3\437668c8ef8529c4f675db5d053adab2f9ec4b0a

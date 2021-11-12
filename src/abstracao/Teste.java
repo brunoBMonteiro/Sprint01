@@ -10,8 +10,6 @@ public class Teste {
         professor.setEndereco("Rua 3, num 20");
 
         System.out.println("-------------sobreposição do método ENDERECO-------");
-        System.out.println(pessoa.obterEndereco());
-        System.out.println(aluno.obterEndereco());
         System.out.println(professor.getEndereco());
 
         System.out.println("-------------sobreposição do método CPF-------");
