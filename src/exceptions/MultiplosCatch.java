@@ -23,7 +23,7 @@ public class MultiplosCatch {
                 System.out.println("Aconteceu um erro");
             }
 
-            // exemplo usando o ou lógico
+            // exemplo usando o ou lógico com exceções similares
             /*
              *
              * catch(ArithmeticException | ArrayIndexOutOfBoundsException e) {
