@@ -23,5 +23,3 @@ H
 src/abstracao/Aluno.java,a\a\aab6409572bebbb6c5a758113becc7c07ebb5d21
 I
 src/abstracao/Pessoa.java,4\d\4d55b5e7c00b6f43edfbece287b2a59a37612448
-_
-/src/metodosEstaticos/TesteMinhaCalculadora.java,d\e\debe4b590252c2207e6efb4033b71f5bbc367023
