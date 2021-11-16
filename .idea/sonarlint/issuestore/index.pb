@@ -15,3 +15,13 @@ L
 src/sobreposicao/Pessoa.java,4\7\47da15a2dd879ebd6c3381a95e84e5684c120d3b
 O
 src/sobreposicao/Professor.java,6\e\6e72a6bee867ecbba3851768f00e5a0b74ecf719
+H
+src/abstracao/Teste.java,b\a\bac748c94e1317eb159ff56c8afe9f2c3c544e36
+L
+src/abstracao/Professor.java,1\9\197e49ad07ffeb2974a4d4ab98dbf1f8dbc0bff1
+H
+src/abstracao/Aluno.java,a\a\aab6409572bebbb6c5a758113becc7c07ebb5d21
+I
+src/abstracao/Pessoa.java,4\d\4d55b5e7c00b6f43edfbece287b2a59a37612448
+_
+/src/metodosEstaticos/TesteMinhaCalculadora.java,d\e\debe4b590252c2207e6efb4033b71f5bbc367023

@@ -9,6 +9,7 @@ public class TesteMinhaCalculadora {
          */
 
         // COM O MODIFICADOR DE ACESSO STATIC no método da classe MinhaCalculadora
-        System.out.println(MinhaCalculadora.soma(1,2));
+        System.out.println(MinhaCalculadora.soma(1, 2));
+        System.out.println(MinhaCalculadora.soma(1.5, 1.5));
     }
 }
