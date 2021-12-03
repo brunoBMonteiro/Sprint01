@@ -1,0 +1,8 @@
+
+;
+java:S1165" Make this "numeros" field final.(ã†ç¹úÿÿÿÿ
+A
+java:S1165"&Make this "denominadores" field final.(£’–¢üÿÿÿÿ
+P
+java:S1161":Add the "@Override" annotation above this method signature(Á»›ê
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ê˜y

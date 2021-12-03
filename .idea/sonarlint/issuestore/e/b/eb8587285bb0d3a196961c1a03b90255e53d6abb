@@ -1,0 +1,6 @@
+
+X
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(ÔÙ×r
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬¾‰ö
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿¤ãýøÿÿÿÿ8æï¯œÓ/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ê˜y

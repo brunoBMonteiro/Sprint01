@@ -9,6 +9,7 @@ public class Pessoa {
     private String casa;
     private String reacao;
 
+
     public Pessoa(String nome, String endereco, String telefone, String cpf, String casa, String reacao){
         this.nome = nome;
         this.endereco = endereco;
@@ -41,6 +42,7 @@ public class Pessoa {
     public String getReacao() {
         return reacao;
     }
+
 
     public void setNome(String nome){
         this.nome = nome;
@@ -78,6 +80,7 @@ public class Pessoa {
         }
     }
 
+
     public void reacao(int hora){
         if(hora >= 8 && hora < 12){
             System.out.println("Continuar trabalhando!");
@@ -95,7 +98,6 @@ public class Pessoa {
             System.out.println("Vai trabalhar!");
         }
     }
-
 
 }
 
